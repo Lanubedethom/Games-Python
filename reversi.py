@@ -115,6 +115,13 @@ def main():
         dibujarTablero(newTable)
         mostrarPuntaje(talePlayer, taleComputador, newTable)
 
+    #es solo una muestra para git
+    else:
+        print("la computadora ira primero")
+        dibujarTablero(newTable)
+        mostrarPuntaje(taleComputador, talePlayer, newTable)
+        
+
 
 
 #main()
