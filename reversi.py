@@ -120,6 +120,10 @@ def main():
         print("la computadora ira primero")
         dibujarTablero(newTable)
         mostrarPuntaje(taleComputador, talePlayer, newTable)
+
+    #otro muestra para git
+    if endGame():
+        break
         
 
 
