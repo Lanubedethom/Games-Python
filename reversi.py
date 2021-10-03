@@ -124,7 +124,9 @@ def main():
     #otro muestra para git
     if endGame():
         break
-        
+        #otro ejemplo para entender ramas
+        print("este es un ejemplo para entender ramas, ok no")
+
 
 
 
