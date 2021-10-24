@@ -33,8 +33,12 @@ def obtenerNuevoTablero():
 
     return tablero
 
+#modulo para determinar la fila del tablero
 def obtenerFila(tablero, fila):
     filaTablero = ""
     for i in range(60):
         filaTablero += tablero[fila][i]
     return filaTablero
+
+tablero = obtenerNuevoTablero()
+dibujarTablero(tablero)
