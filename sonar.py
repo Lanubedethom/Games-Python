@@ -32,3 +32,9 @@ def obtenerNuevoTablero():
                 tablero[i].append("`")
 
     return tablero
+
+def obtenerFila(tablero, fila):
+    filaTablero = ""
+    for i in range(60):
+        filaTablero += tablero[fila][i]
+    return filaTablero
